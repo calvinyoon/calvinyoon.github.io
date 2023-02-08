@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(to right, #3797c5, #33efb4);
+}
+
+.introsection {
+	background-color: cyan;
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 200px;
+}
+
+.projectcontainer1,
+.projectcontainer2 {
+	background-color: yellow;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.projectpreview {
+	height: 200px;
+	margin: 0 auto 10px auto;
+}
+
