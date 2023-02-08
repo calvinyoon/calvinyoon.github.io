@@ -16,7 +16,8 @@ body {
 }
 
 .projectcontainer1,
-.projectcontainer2 {
+.projectcontainer2,
+.projectcontainer3 {
 	background-color: yellow;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -28,4 +29,5 @@ body {
 .projectpreview {
 	height: 200px;
 	margin: 0 auto 10px auto;
+	background-color: cyan;
 }
