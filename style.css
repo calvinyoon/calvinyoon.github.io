@@ -1,7 +1,7 @@
 * {
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -9,16 +9,49 @@ body {
 }
 
 .introsection {
-	background-color: cyan;
+	background-color: rgba(0,0,0,0.2);
 	border: 2px solid black;
 	border-radius: 10px;
 	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
+
+.introsection p {
+	font-size: 3rem;
+	padding: 0.5rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	text-align: center;
+}
+
+.introsection p span.cursor {
+	display: inline-block;
+	background-color: white;
+	width: 3px;
+	animation: blink 1s infinite;
+}
+
+.introsection p span.cursor.typing {
+	animation: none;
+}
+
+@keyframes blink {
+	0%	{ background-color: white; }
+	49%	{ background-color: white; }
+	50%	{ background-color: transparent; }
+	99%	{ background-color: transparent; }
+	100% { background-color: white; }
+}
+
 
 .projectcontainer1,
 .projectcontainer2,
 .projectcontainer3 {
-	background-color: yellow;
+	background-color: rgba(256,256,0,0.2);
 	border: 2px solid black;
 	border-radius: 10px;
 	display: flex;
