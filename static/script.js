@@ -71,14 +71,14 @@ document.addEventListener("DOMContentLoaded", initiateTypeEffect);
 //****PROJECT SECTION****************************************//
 
 
-var projectsbutton = document.getElementById("projectsbutton");
-var projectssection = document.getElementById("projectssection");
+var projectsButton = document.getElementById("projectsNav");
+var projectsSection = document.getElementById("projectsSection");
 
-projectsbutton.addEventListener("click", function() {
-  var projectssectionposition = projectssection.offsetTop + (projectssection.offsetHeight / 10);
+projectsButton.addEventListener("click", function() {
+  var projectsSectionPosition = projectsSection.offsetTop - (projectsSection.offsetHeight / 20);
 
   window.scrollTo({
-    top: projectssectionposition,
+    top: projectsSectionPosition,
     behavior: "smooth"
   });
 });

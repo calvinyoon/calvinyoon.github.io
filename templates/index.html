@@ -6,18 +6,17 @@
 
 	<link rel="stylesheet" type="text/css" href="static/style.css">
 	<title>Calvin Yoon | Developer</title>
-	
 </head>
 
-<nav>
-	<section class=navigation>
-		<button id = "projectsbutton">Projects</button>
-	</section>
-</nav>
+<header>
+	<nav>
+		<section class="navigation">
+			<div class="navText" id="aboutMeNav">About Me</div>
+			<div class="navText" id="projectsNav">Projects</div>
+			<div class="navText" id="publicationsNav">Publications</div>
+		</section>
+	</nav>
 
-<body>
-
-	
 	<section class=introsection>
 		<h1>Welcome to Calvin's Page</h1>
 		{{name}} {{post_id}}
@@ -25,28 +24,95 @@
 		<p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
 	</section>
 
-	<section id="projectssection">
-		<div class=projectcontainer1>
-			<h3>Project 1</h3>
-			<a href="https://calvinyoon.github.io/background-generator/" target=_blank>
-				<img class=projectpreview src="./static/assets/Background Generator.PNG">
-			</a>
-		</div>
+	<section class=bio>
+		<section class=pictureSection>
+			<img class=profilePic src="./static/assets/Profile Pic 1.JPG">
+		</section>
+		<section class=aboutSection>
+			<h1>About Calvin Yoon</h1>
+			<p>I am a data scientist with a passion for advancing healthcare. 
+				I have a Masters in Integrative Bioscience and Biotechology 
+				(graduated Summa Cum Laude / Highest Honors) from POSTECH in 
+				South Korea and a Bachelors in Biomedical Engineering with a
+				concentration of Cell & Tissue Engineering from the University 
+				of Rochester. In academia, my research was focused on developing 
+				imaging methods for characterizing the tissue microenvironment of 
+				cancer and inflammation. In the medtech industry, I have led 
+				multi-million dollar projects involving cross-functional stakeholders 
+				that optimized manufacturing quality and efficiency of Class II and III
+				products through automation and digitalization. Now, I am seeking 
+				work as a data scientist, analyst, or computational biologist. 
+				I look forward to connecting with you.</p>
+		</section>
+	</section>
+</header>
 
-		<div class=projectcontainer2>
-			<h3>Project 2</h3>
-			<a href="https://calvinyoon.github.io/drum-set/" target=_blank>
-				<img class=projectpreview src="./static/assets/Drum Set.PNG">
-			</a>
-		</div>
+<body>
+	<section>
+		<section id="projectsSection">
+			<div class="projectcontainer">
+				<h1>Projects</h1>
+			</div>
+		</section>
 
-		<div class=projectcontainer3>
-			<h3>Project 3</h3>
-			<a href="https://calvinyoon.github.io/to-do-list/" target=_blank>
-				<img class=projectpreview src="./static/assets/To Do List.PNG">
-			</a>
+
+		<section id="projectsSection">
+			<div class="projectcontainer">
+				<h3>Project 1</h3>
+				<a href="https://calvinyoon.github.io/background-generator/" target=_blank>
+					<img class=projectpreview src="./static/assets/Background Generator.PNG">
+				</a>
+			</div>
+
+			<div class="projectcontainer">
+				<h3>Project 2</h3>
+				<a href="https://calvinyoon.github.io/drum-set/" target=_blank>
+					<img class=projectpreview src="./static/assets/Drum Set.PNG">
+				</a>
+			</div>
+
+			<div class="projectcontainer">
+				<h3>Project 3</h3>
+				<a href="https://calvinyoon.github.io/to-do-list/" target=_blank>
+					<img class=projectpreview src="./static/assets/To Do List.PNG">
+				</a>
+			</div>
+
+			<!-- <div class=projectcontainer>
+				<h3>Project 3</h3>
+				<a href="https://calvinyoon.github.io/to-do-list/" target=_blank>
+					<img class=projectpreview src="./static/assets/To Do List.PNG">
+				</a>
+			</div>
+
+			<div class=projectcontainer>
+				<h3>Project 3</h3>
+				<a href="https://calvinyoon.github.io/to-do-list/" target=_blank>
+					<img class=projectpreview src="./static/assets/To Do List.PNG">
+				</a>
+			</div> -->
+
+
+	</section>
+
+
+	<section class="publicationsSection">
+		<div class="publicationContainer">
+			<h3 class="pubText">Publications</h3>
+			<p class="pubText"><a href="https://pubmed.ncbi.nlm.nih.gov/27283889/" target="_blank">Moxifloxacin: Clinically compatible contrast agent for multiphoton imaging</a></p>
+			<p class="pubText"><a href="https://pubmed.ncbi.nlm.nih.gov/26057729/" target="_blank">Quantum Dots in an Amphiphilic Polyethyleneimine Derivative Platform for Cellular Labeling, Targeting, Gene Delivery, and Ratiometric Oxygen Sensing</a></p>
+			<p class="pubText"><a href="https://pubmed.ncbi.nlm.nih.gov/26203377/" target="_blank">In vivo visualization of skin inflammation by optical coherence tomography and two-photon microscopy</a></p>
+			<p class="pubText"><a href="https://pubmed.ncbi.nlm.nih.gov/26977371/" target="_blank">Comparison of reflectance confocal microscopy and two-photon second harmonic generation microscopy in fungal keratitis rabbit model ex vivo</a></p>
+			<p class="pubText"><a href="https://pubmed.ncbi.nlm.nih.gov/27374093/" target="_blank">NO-dependent attenuation of TPA-induced immunoinflammatory skin changes in Balb/c mice by pindolol, heptaminol or ATRA, but not by verapamil</a></p>
+			<p class="pubText"><a href="https://pubmed.ncbi.nlm.nih.gov/26203380/" target="_blank">Correlation between polarization sensitive optical coherence tomography and second harmonic generation microscopy in skin</a></p>
+			<p class="pubText"><a href="https://pubmed.ncbi.nlm.nih.gov/26417502/" target="_blank">In vivo imaging of activated microglia in a mouse model of focal cerebral ischemia by two-photon microscopy</a></p>
+			<p class="pubText"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530381/" target="_blank">Investigation of the peak action wavelength of light-activated gene transduction (LAGT)</a></p>
+			<p>Intern: Stabilin-2 receptor</p>
+			<p>Intern: WNT receptor</p>
+			
 		</div>
 	</section>
+
 
 	<section>
 		<h1>Other Section</h1>
