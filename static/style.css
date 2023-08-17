@@ -20,8 +20,8 @@ nav {
 }
 
 .navigation {
-	background-color: rgba(256,256,0,0.2);
-	border: 2px solid black;
+	background-color: black;
+	border: 2px solid white;
 	border-radius: 10px;
 	display: flex;
 	width: 100%;
@@ -50,7 +50,7 @@ body {
 
 .introsection {
 	background-color: rgba(0,0,0,0.2);
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 10px;
 	width: 100%;
 	height: 300px;
@@ -62,7 +62,6 @@ body {
 }
 
 .bio {
-	background-color:yellow;
 	width: 100%;
 	min-height: 500px;
 	display: flex;
@@ -71,8 +70,8 @@ body {
 }
 
 .pictureSection {
-	background-color: rgba(0,0,0,0.2);
-	border: 2px solid black;
+	background-color: black;
+	border: 2px solid white;
 	border-radius: 10px;
 	flex: 1;
 	display: flex;
@@ -88,7 +87,7 @@ body {
 
 .aboutSection {
 	background-color:black;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 10px;
 	width: 40%;
 	min-height: 500px;
@@ -128,12 +127,26 @@ body {
 }
 
 
+.publicationsSection {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.sectionheading {
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 10px;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 
 
 .projectcontainer {
-	background-color: rgba(256,256,0,0.2);
-	border: 2px solid black;
+	background-color: rgba(0,0,0,0.2);
+	border: 2px solid white;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
@@ -143,29 +156,67 @@ body {
 .projectpreview {
 	height: 200px;
 	width: 300px;
-	margin: 0 auto 10px auto;
 }
 
-.publicationContainer {
-	background-color: rgba(256,256,0,0.2);
-	border: 2px solid black;
-	border-radius: 10px;
-	display: flex;
-	flex-direction: column;
-	text-align: left;
+.publicationsSection {
+	background-color: white;
+}
+
+.pubcontainer {
+	background-color: rgba(0,0,0,0.8);
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	width: 100%;
+	min-height: 500px;
 	color: white;
-
 }
 
-.pubText {
-	margin: 10px;
+.pubitem {
+	padding: 5px;
+	border: 1px solid #ccc;
+	display: grid;
+	grid-template-rows: auto 1fr auto auto;
+	grid-gap: 10px;
+	align-items: start;
+	background-color: rgba(256,256,265,0.2);
+	border: 2px solid white;
+	border-radius: 10px;
 }
 
-.publicationContainer a {
+.projectpreview {
+	max-width: 100%;
+	height: auto;
+}
+
+.pubText a {
+	text-decoration: none;
+	margin: 0px;
 	color: white;
     text-decoration: none; /* Remove underline */
+	font-family: serif;
+	font-size: 18px;
 }
 
-.publicationContainer a:hover {
+.pubText a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
+
+
+.pubitem div {
+	padding: 5px;
+	border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
