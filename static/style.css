@@ -186,6 +186,7 @@ body {
 .projectpreview {
 	max-width: 100%;
 	height: auto;
+	margin: 0 auto;
 }
 
 .pubText a {

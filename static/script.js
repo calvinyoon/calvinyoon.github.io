@@ -82,3 +82,15 @@ projectsButton.addEventListener("click", function() {
     behavior: "smooth"
   });
 });
+
+var publicationsButton = document.getElementById("publicationsNav");
+var publicationsSection = document.getElementById("publicationsSection");
+
+publicationsButton.addEventListener("click", function() {
+  var publicationsSectionPosition = publicationsSection.offsetTop - (publicationsSection.offsetHeight / 20);
+
+  window.scrollTo({
+    top: publicationsSectionPosition,
+    behavior: "smooth"
+  });
+});
