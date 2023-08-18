@@ -82,7 +82,7 @@ body {
 
 .profilePic {
 	width: 80%;
-	margin: 0 auto 10px auto;
+	margin: 10px auto;
 }
 
 .aboutSection {
@@ -127,9 +127,7 @@ body {
 }
 
 
-.publicationsSection {
-	background-color: rgba(0,0,0,0.8);
-}
+/*=========================*/
 
 .sectionheading {
 	background-color: black;
@@ -151,12 +149,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	flex: 1;
+	padding: 10px;
 }
 
 .projectpreview {
 	height: 200px;
 	width: 300px;
+	padding: 10px;
 }
+
+/*=============================*/
+
 
 .publicationsSection {
 	background-color: white;
